@@ -11,7 +11,7 @@ namespace _2rc_awaken_example
             god.BeHoly();
             god.Comfort();
             god.RaiseTheDead();
-            god.BeHuman();
+            god.BeHumanAndPerfect();
 
             Jesus jesus = new Jesus();
             jesus.BeHoly();
