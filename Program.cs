@@ -6,8 +6,6 @@ namespace _2rc_awaken_example
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-
             God god = new God();
 
             god.BeHoly();
@@ -17,6 +15,8 @@ namespace _2rc_awaken_example
 
             Spencer spencer = new Spencer();
             spencer.BeHuman();
+            spencer.BeHoly();
+            spencer.Comfort();
         }
     }
 }
