@@ -7,28 +7,21 @@ namespace _2rc_awaken_example
         static void Main(string[] args)
         {
             God god = new God();
-
-            Console.WriteLine();
-            Console.WriteLine("Things God can do:");
-            Console.WriteLine();
+            Console.WriteLine("\nThings God can do:\n");
             god.BeHoly();
             god.Comfort();
             god.RaiseTheDead();
             god.BeHumanAndPerfect();
 
             Jesus jesus = new Jesus();
-            Console.WriteLine();
-            Console.WriteLine("Things Jesus can do:");
-            Console.WriteLine();
+            Console.WriteLine("\nThings Jesus can do:\n");
             jesus.BeHoly();
             jesus.Comfort();
             jesus.RaiseTheDead();
             jesus.BeHumanAndPerfect();
 
-            Console.WriteLine();
-            Console.WriteLine("Things Spencer can do:");
-            Console.WriteLine();
             Spencer spencer = new Spencer();
+            Console.WriteLine("\nThings Spencer can do:\n");
             spencer.BeHuman();
         }
     }

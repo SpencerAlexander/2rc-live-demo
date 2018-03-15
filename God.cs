@@ -32,6 +32,6 @@ namespace _2rc_awaken_example
             Console.WriteLine("can be human and perfect!");
         }
 
-        private string m_name = nameof(God);
+        private string m_name;
     }
 }
