@@ -1,0 +1,4 @@
+interface IHuman
+{
+    void BeHuman();
+}

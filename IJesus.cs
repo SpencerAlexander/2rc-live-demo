@@ -1,0 +1,4 @@
+interface IJesus
+{
+    void RaiseTheDead();
+}
