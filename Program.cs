@@ -21,8 +21,9 @@ namespace _2rc_awaken_example
             Console.WriteLine("Things Jesus can do:");
             Console.WriteLine();
             jesus.BeHoly();
-            jesus.RaiseTheDead();
             jesus.Comfort();
+            jesus.RaiseTheDead();
+            jesus.BeHumanAndPerfect();
 
             Console.WriteLine();
             Console.WriteLine("Things Spencer can do:");
