@@ -13,10 +13,12 @@ namespace _2rc_awaken_example
             god.RaiseTheDead();
             god.BeHuman();
 
+            Jesus jesus = new Jesus();
+            jesus.BeHoly();
+            jesus.RaiseTheDead();
+
             Spencer spencer = new Spencer();
             spencer.BeHuman();
-            spencer.BeHoly();
-            spencer.Comfort();
         }
     }
 }

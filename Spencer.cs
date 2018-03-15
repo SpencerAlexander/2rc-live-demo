@@ -2,10 +2,10 @@ using System;
 
 namespace _2rc_awaken_example
 {
-    public class Spencer : Jesus, IHuman
+    public class Spencer : IHuman
     {
-        public Spencer (string name = nameof(Spencer)) : base(name) {} 
-        public new void BeHuman()
+        public Spencer (string name = nameof(Spencer)) {} 
+        public void BeHuman()
         {
             Console.Write("I am {0} and I ", nameof(Spencer));
             Console.WriteLine("can be human! I can do good, but I'm also sinful because of the fall of man");

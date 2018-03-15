@@ -26,12 +26,6 @@ namespace _2rc_awaken_example
             Console.WriteLine("am holy!");
         }
 
-        public void SpeakInTongues()
-        {
-            Console.Write("I am {0} and I ", m_name);
-            Console.WriteLine("speak in tongues!");
-        }
-
         public void BeHuman()
         {
             Console.Write("I am {0} and I ", m_name);
