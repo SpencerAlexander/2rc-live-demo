@@ -2,7 +2,7 @@ using System;
 
 namespace _2rc_awaken_example
 {
-    public class God : IHolySpirit, IJesus, IHuman
+    public class God : IGod, IHolySpirit, IJesus
     {
         public God(string name = nameof(God))
         {
@@ -26,10 +26,10 @@ namespace _2rc_awaken_example
             Console.WriteLine("am holy!");
         }
 
-        public void BeHuman()
+        public void BeHumanAndPerfect()
         {
             Console.Write("I am {0} and I ", m_name);
-            Console.WriteLine("can be human!");
+            Console.WriteLine("can be human and perfect!");
         }
 
         private string m_name = nameof(God);

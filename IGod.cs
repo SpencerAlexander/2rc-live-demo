@@ -1,0 +1,4 @@
+interface IGod
+{
+    void BeHoly();
+}
